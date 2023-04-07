@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import '~font-awesome/css/font-awesome.css';
+.white-color{
+    color: white;
+    font-size: medium;
+    
+}
+.navbar-nav > li{
+  padding-left:15px;
+  padding-right:15px;
+}
+.image {
+    width: 100%;
+    height: 200px;
+    background-image: url("assets/images/download.jpeg");
+    background-size: cover
+  }
+  .top-left {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+  }
+  .icon-spacing {
+    padding-left:15px;
+    padding-right:15px;
+  }
+  #ip1 {
+    border-radius: 18px;
+    background:white;
+    padding: 20px; 
+    width: 200px;
+    height: 15px;    
+}
+#ip2 {
+    border-radius: 18px;
+    background:white;
+    padding: 20px; 
+    width: 200px;
+    height: 15px;    
+}
+.round-shape {
+    background-color:orangered;
+    border: none;
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
